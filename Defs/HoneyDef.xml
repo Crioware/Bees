@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>BumblerHoney</defName>
+		<label>Honey</label>
+		<description>honey from a bumbler</description>
+		<graphicData>
+			<texPath>Things/BumblerHoney</texPath>
+		</graphicData>
+		<socialPropernessMatters>True</socialPropernessMatters>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<Mass>0.04</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct</foodType>
+			<nutrition>0.05</nutrition>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

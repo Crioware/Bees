@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>EggBumblerFertilized</defName>
+		<label>bumbler egg (fert.)</label>
+		<graphicData>
+			<color>(186,101,31)</color>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>Bumbler</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<SoundDef>
+		<defName>Pawn_Bumbler_Call</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Bumbler/Buzz_Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>30</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.5</min>
+					<max>1.5</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>60</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Pawn_Bumbler_Angry</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxVoices>4</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Bumbler/Buzz_Angry</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>55</max>
+				</volumeRange>
+				<pitchRange>
+					<min>1</min>
+					<max>1.5</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Pawn_Bumbler_Hurt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Bumbler/Buzz_Hurt</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>60</max>
+				</volumeRange>
+				<pitchRange>
+					<min>.5</min>
+					<max>2.5</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

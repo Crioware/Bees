@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ToolCapacityDef>
+		<defName>Sting</defName>
+		<label>stinging</label>
+	</ToolCapacityDef>
+
+	<DamageDef ParentName="LocalInjuryBase">
+		<defName>Sting</defName>
+		<label>Sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<stabPierceBonus>2.5</stabPierceBonus>
+		<additionalHediffs>
+			<li>
+				<hediff>BeePoison</hediff>
+				<severityPerDamageDealt>0.075</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+</Defs>
