@@ -11,12 +11,14 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
-					<def>LeftElytra</def>
+					<def>Elytra</def>
+					<customLabel>left wing</customLabel>
 					<coverage>0.07</coverage>
 					<height>Top</height>
 				</li>
 				<li>
-					<def>RightElytra</def>
+					<def>Elytra</def>
+					<customLabel>right wing</customLabel>
 					<coverage>0.07</coverage>
 					<height>Top</height>
 				</li>
@@ -27,17 +29,17 @@
 				</li>
 				<li>
 					<def>Stomach</def>
-					<coverage>0.03</coverage>
+					<coverage>0.05</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>Heart</def>
+					<def>InsectHeart</def>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
 					<def>Neck</def>
-					<coverage>0.1</coverage>
+					<coverage>0.18</coverage>
 					<height>Middle</height>
 					<parts>
 						<li>
@@ -60,64 +62,75 @@
 									</parts>
 								</li>
 									<li>
-										<def>LeftEye</def>
-										<coverage>0.3</coverage>
+										<def>Eye</def>
+										<customLabel>left eye cluster</customLabel>
+										<coverage>0.25</coverage>
 									</li>
 									<li>
-										<def>RightEye</def>
-										<coverage>0.3</coverage>
+										<def>Eye</def>
+										<customLabel>right eye cluster</customLabel>
+										<coverage>0.25</coverage>
 									</li>
 									<li>
-										<def>AnimalJaw</def>
-										<coverage>0.2</coverage>
+										<def>InsectMouth</def>
+										<coverage>0.15</coverage>
 										<groups>
 											<li>Teeth</li>
 										</groups>
 									</li>
 									<li>
-										<def>LeftAntenna</def>
-										<coverage>0.1</coverage>
+										<def>Antenna</def>
+										<customLabel>left antenna</customLabel>
+										<coverage>0.075</coverage>
 									</li>
 									<li>
-										<def>RightAntenna</def>
-										<coverage>0.1</coverage>
+										<def>Antenna</def>
+										<customLabel>right antenna</customLabel>
+										<coverage>0.075</coverage>
 									</li>
 								</parts>
 							</li>
 						</parts>
 					</li>
 					<li>
-						<def>FrontLeftInsectLeg</def>
+						<def>InsectLeg</def>
+						<customLabel>front left leg</customLabel>
 						<coverage>0.06</coverage>
 						<height>Bottom</height>
 					</li>
 					<li>
-						<def>FrontRightInsectLeg</def>
+						<def>InsectLeg</def>
+						<customLabel>front right leg</customLabel>
 						<coverage>0.06</coverage>
 						<height>Bottom</height>
 					</li>
 					<li>
-						<def>MiddleLeftInsectLeg</def>
+						<def>InsectLeg</def>
+						<customLabel>middle left leg</customLabel>
 						<coverage>0.06</coverage>
 						<height>Bottom</height>
 					</li>
 					<li>
-						<def>MiddleRightInsectLeg</def>
+						<def>InsectLeg</def>
+						<customLabel>middle right leg</customLabel>
 						<coverage>0.06</coverage>
 						<height>Bottom</height>
 					</li>
 					<li>
-						<def>RearLeftInsectLeg</def>
+						<def>InsectLeg</def>
+						<customLabel>rear left leg</customLabel>
 						<coverage>0.06</coverage>
 						<height>Bottom</height>
 					</li>
 					<li>
-						<def>RearRightInsectLeg</def>
+						<def>InsectLeg</def>
+						<customLabel>rear right leg</customLabel>
 						<coverage>0.06</coverage>
 						<height>Bottom</height>
 					</li>
 					<li>
 						<def>Horn</def>
+						<customLabel>Stinger</customLabel>
 						<coverage>0.25</coverage>
 						<groups>
 							<li>HornAttackTool</li>
