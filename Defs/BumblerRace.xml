@@ -5,7 +5,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>Bumbler</defName>
 		<label>Giant Bumbler</label>
-		<description>A giant bee the size of a small pig introduced alongside Apini as livestock to help with the terraforming process.</description>
+		<description>A giant bee the size of a small pig introduced as livestock to with terraforming processes.</description>
 		<statBases>
 			<MoveSpeed>4.35</MoveSpeed>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
@@ -28,7 +28,6 @@
 				<power>4</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<commonality>0.2</commonality>
 			</li>
 			<li>
 				<label>sting</label>
@@ -38,7 +37,6 @@
 				<power>12</power>
 				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 				<cooldownTime>1.65</cooldownTime>
-				<commonality>0.3</commonality>
 			</li>
 		</tools>
 		<comps>
@@ -64,15 +62,10 @@
 			<baseHealthScale>0.6</baseHealthScale>
 			<baseHungerRate>0.45</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherColor>(102,90,34)</leatherColor>
-			<leatherLabel>bumbler chitin</leatherLabel>
-			<leatherStatFactors>
-				<MarketValue>2.45</MarketValue>
-				<ArmorRating_Heat>4.35</ArmorRating_Heat>
-			</leatherStatFactors>
+			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.15</wildness>
-			<trainableIntelligence>Advanced</trainableIntelligence>
-			<meatLabel>bumblerflesh</meatLabel>
+			<trainability>Advanced</trainability>
+			<meatLabel>bumbler flesh</meatLabel>
 			<lifeExpectancy>5</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -92,7 +85,7 @@
 					<soundAngry>Pawn_Bumbler_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Melee_SmallScratch</soundMeleeHitPawn>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
@@ -106,12 +99,11 @@
 		<label>Giant Bumbler</label>
 		<race>Bumbler</race>
 		<combatPower>75</combatPower>
-		<wildSpawn_spawnWild>True</wildSpawn_spawnWild>
-		<wildSpawn_EcoSystemWeight>.3</wildSpawn_EcoSystemWeight>
-		<wildSpawn_GroupSizeRange>
+		<ecoSystemWeight>.3</ecoSystemWeight>
+		<wildGroupSize>
 			<min>1</min>
 			<max>4</max>
-		</wildSpawn_GroupSizeRange>
+		</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>bumbler larva</label>

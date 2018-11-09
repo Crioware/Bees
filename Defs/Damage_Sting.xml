@@ -7,7 +7,7 @@
 		<label>stinging</label>
 	</ToolCapacityDef>
 
-	<DamageDef ParentName="LocalInjuryBase">
+	<DamageDef ParentName="CutBase">
 		<defName>Sting</defName>
 		<label>Sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>
@@ -21,7 +21,7 @@
 		<additionalHediffs>
 			<li>
 				<hediff>BeePoison</hediff>
-				<severityPerDamageDealt>0.075</severityPerDamageDealt>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
